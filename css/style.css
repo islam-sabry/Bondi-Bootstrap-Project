@@ -1,0 +1,50 @@
+/* global style  */
+:root {
+    --landing-color : #19283f;
+    --active-color : #33d1cc;
+    --btn-color : #ffc400;
+}
+body {
+    font-family: "Roboto", system-ui;
+}
+.main-btn {
+    color: var(--btn-color);
+    background-color: #17a2b8;
+}
+.main-btn:hover {
+    color: white;
+}
+/* style the navbar  */
+.navbar {
+    background-color: var(--landing-color);
+}
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--active-color);
+}
+.navbar .search {
+    border-left: 1px solid var(--active-color) ;
+}
+.navbar .search svg {
+    color: var(--active-color);
+}
+.navba .navbar-toggler {
+    font-size: 25px;
+    color: white;
+    border-color: white;
+}
+.navba .navbar-toggler:focus {
+    box-shadow: none;
+}
+/* style the landing  */
+.landing {
+    background-color: var(--landing-color);
+    min-height: calc(100vh - 56px);
+}
+.landing p {
+    opacity: 50%;
+}
