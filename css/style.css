@@ -81,3 +81,44 @@ body {
 .features h4 {
     color: var(--btn-color);
 }
+/* style the our work section  */
+.our-work {
+    background-color: var(--section-color);
+}
+.our-work ul li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+}
+.our-work ul li.active {
+    background-color: var(--active-color);
+    color: var(--btn-color);
+}
+.our-work ul li:not(.active):hover {
+    color: var(--btn-color);
+}
+.our-work .row .box {
+    padding: 6px;
+    overflow: hidden;
+    position: relative;
+}
+.our-work .row .box::before {
+    content: attr(data-ourWork);
+    position: absolute;
+    background-color: rgb(51 209 204 / 74%);
+    width: calc(100% - 12px);
+    height: calc(100% - 12px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: translateX(-105%);
+    transition: 0.3s;
+}
+.our-work .row .box:hover:before {
+    transform: translateX(0);
+}
