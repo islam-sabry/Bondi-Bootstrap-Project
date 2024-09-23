@@ -25,6 +25,9 @@ body {
     left: 50%;
     transform: translate(-50%);
 }
+.opacity-50 {
+    opacity: 50%;
+}
 /* style the navbar  */
 .navbar {
     background-color: var(--landing-color);
@@ -121,4 +124,8 @@ body {
 }
 .our-work .row .box:hover:before {
     transform: translateX(0);
+}
+/* style the stuff section  */
+.stuff .stuff-desc {
+    max-width: 500px;
 }
