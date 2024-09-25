@@ -140,3 +140,7 @@ body {
     padding: 10px;
     background-color: #33d1cc;
 }
+/* style the technology and project section  */
+.project {
+    background-color: var(--landing-color);
+}
