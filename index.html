@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-     rel="stylesheet">
-     <link rel="stylesheet" href="/css/all.min.css">
-     <link rel="stylesheet" href="/css/bootstrap.min.css">
-     <link rel="stylesheet" href="/css/style.css">
-    <title>Bootstrap Project</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
+  <title>Bootstrap Project</title>
 </head>
 <body>
     <!-- create the navbar  -->
@@ -23,7 +23,7 @@
             <i class="fa-solid fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item"><a class="nav-link p-3 active" aria-current="page" href="#">Home</a></li>
               <li class="nav-item"><a class="nav-link p-3" href="#">Services</a></li>
               <li class="nav-item"><a class="nav-link p-3" href="#">Portfolio</a></li>
@@ -151,45 +151,96 @@
     </div>
     </div>
     <!-- create stuff section  -->
-     <div class="stuff pt-5">
-      <div class="container">
+    <div class="stuff pt-5">
+    <div class="container">
+      <div class="main-title mt-5 mb-5 position-relative text-center">
+        <img class="mb-4" src="/assets/imags/title.png" alt="Main Title img">
+        <h2>Some Stuff About Us</h2>
+        <p class="text-uppercase opacity-50">The Great Team</p>
+        <p class="text-capitalize opacity-50 stuff-desc m-auto">
+          Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+          Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.
+        </p>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-4 mb-4 text-center text-md-start">
+          <div class="stuff-text">
+            <h3 class="mt-5">Retina Design</h3>
+            <p class="opacity-50">
+              
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget
+              tincidunt nibh pulvinar a.
+            
+            </p>
+            <p class="opacity-50">
+              
+              Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie
+              malesuada.
+            
+            </p>
+            <a class="btn .main-btn main-btn rounded-pill" href="#">Order Me One</a>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="stuff-img text-center">
+            <img class="img-fluid mt-5" src="/assets/imags/laptop.png" alt="laptop pic" />
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- create our team section  -->
+    <div class="our-team text-center pt-5 pb-5">
+      <div class="container pt-3">
         <div class="main-title mt-5 mb-5 position-relative text-center">
-          <img class="mb-4" src="/assets/imags/title.png" alt="Main Title img">
-          <h2>Some Stuff About Us</h2>
-          <p class="text-uppercase opacity-50">The Great Team</p>
-          <p class="text-capitalize opacity-50 stuff-desc m-auto">
+          <h2 class="our-team-h mb-4 fw-bold">Meet The Team</h2>
+          <p class="text-capitalize opacity-50 stuff-desc m-auto mb-5">
             Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
             Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.
           </p>
         </div>
-        <div class="row align-items-center">
-          <div class="col-lg-4 text-center text-md-start">
-            <div class="stuff-text">
-              <h3 class="mt-5">Retina Design</h3>
-              <p class="opacity-50">
-                
-                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget
-                tincidunt nibh pulvinar a.
-              
-              </p>
-              <p class="opacity-50">
-                
-                Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie
-                malesuada.
-              
-              </p>
-              <a class="btn .main-btn main-btn rounded-pill" href="#">Order Me One</a>
+        <div class="row mt-5 pt-5">
+          <div class="col-lg-3 col-md-6">
+            <div class="mb-3 card">
+              <img src="/assets/imags/team-1.png" class="card-img-top" alt="Card pic">
+              <div class=" p-0 card-body">
+                <h5 class="card-title">Luke Ahmed</h5>
+                <blockquote class="p-3 opacity-50">" Some quick example text to build on the card title and make up the bulk of the card's content."</blockquote>
+              </div>
             </div>
           </div>
-          <div class="col-lg-8">
-            <div class="stuff-img">
-              <img class="img-fluid mt-5" src="/assets/imags/laptop.png" alt="laptop pic" />
+          <div class="col-lg-3 col-md-6">
+            <div class="mb-3 card">
+              <img src="/assets/imags/team-2.png" class="card-img-top" alt="Card pic">
+              <div class=" p-0 card-body">
+                <h5 class="card-title">Aylen Eslam</h5>
+                <blockquote class="p-3 opacity-50">" Some quick example text to build on the card title and make up the bulk of the card's content."</blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="mb-3 card">
+              <img src="/assets/imags/team-4.png" class="card-img-top" alt="Card pic">
+              <div class=" p-0 card-body">
+                <h5 class="card-title">Bella Ghareb</h5>
+                <blockquote class="p-3 opacity-50">" Some quick example text to build on the card title and make up the bulk of the card's content."</blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="mb-3 card">
+              <img src="/assets/imags/team-3.png" class="card-img-top" alt="Card pic">
+              <div class=" p-0 card-body">
+                <h5 class="card-title">Eleen Eslam</h5>
+                <blockquote class="p-3 opacity-50">" Some quick example text to build on the card title and make up the bulk of the card's content."</blockquote>
+              </div>
             </div>
           </div>
         </div>
       </div>
-     </div>
+
+    </div>
 
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/all.min.js"></script>
