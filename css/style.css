@@ -144,3 +144,25 @@ body {
 .project {
     background-color: var(--landing-color);
 }
+/* style the subscribe section  */
+.subscrib {
+    background-color: var(--btn-color);
+}
+.subscrib input[type="email"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+.subscrib input[type="email"]:focus {
+    outline: none;
+}
+@media (max-width: 992px) {
+    .subscrib .lable {
+        margin-bottom: 15px !important;
+    }
+    .subscrib input[type="submit"] {
+        margin-top: 15px !important;
+    }
+
+}
+
