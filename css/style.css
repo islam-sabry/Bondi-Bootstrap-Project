@@ -165,4 +165,31 @@ body {
     }
 
 }
-
+/* style the footer  */
+.footer {
+    background-color: var(--landing-color);
+}
+.footer .copy-right > span {
+    color: var(--active-color);
+}
+.footer .copy-right div span {
+    color: var(--btn-color);
+}
+.footer-contact .social li a svg {
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+}
+.fa-youtube {
+    background-color: #ff0000;
+}
+.fa-facebook {
+    background-color: #1877f2;
+    
+}
+.fa-whatsapp {
+    background-color: #075e54;
+}
+.fa-instagram {
+    background-color    : #f77737;
+}
